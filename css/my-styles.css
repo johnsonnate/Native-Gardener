@@ -34,6 +34,7 @@ body {
 }
 
 
+
 /* Jumbotron
 ====================================== */
 
@@ -63,6 +64,8 @@ body {
 	border-color: #222;
 }
 
+.carousel-inner > .item > img { margin: 0 auto; }
+
 /* Content 
  * ===================================*/
 
@@ -89,8 +92,24 @@ body {
 
 
 
+/*Contact
+======================================*/
 
-
+.contact {
+	.btn-submit {
+	width: 150px;
+	float: left;
+	margin: 2% 0;
+	border: 0;
+	padding: 10px 25px;
+	color: #faf3bc;
+	font-size: .75em;
+	background-color: #4fb69f;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-transform: uppercase;
+}
 
 
 
